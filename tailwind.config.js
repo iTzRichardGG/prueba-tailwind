@@ -1,0 +1,23 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./**/*.{html,js}"],
+  theme: {
+    extend: {
+      boxShadow: {
+        'right': '4px 0 2px -2px rgba(0, 0, 0, 0.1)', // Sombra en el lado derecho
+      },
+      height: {
+        '1/12': '8.333333%', // Altura personalizada 1/12
+        '11/12': '91.666667%', // Altura personalizada 11/12
+      },
+      screens: {
+        'xs': '300px',     // Pantallas extra pequeñas// 
+      },
+      fontSize: {
+        'xxs': '.6rem', // Tamaño de fuente extra extra pequeño
+      },
+    },
+  },
+  plugins: [],
+}
+
