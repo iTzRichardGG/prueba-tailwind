@@ -10,3 +10,7 @@ body {
   -ms-overflow-style: none;  
   scrollbar-width: none; 
 }
+
+.tu-elemento {
+  height: 100dvh;; /* Ajusta este valor según el espacio ocupado */
+}
