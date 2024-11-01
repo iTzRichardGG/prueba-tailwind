@@ -894,22 +894,6 @@ video {
   height: 100%;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
-.min-h-screen {
-  min-height: 100vh;
-}
-
-.min-h-1 {
-  min-height: 0.25rem;
-}
-
-.min-h-full {
-  min-height: 100%;
-}
-
 .w-1\/2 {
   width: 50%;
 }
@@ -1004,6 +988,10 @@ video {
 
 .transform-none {
   transform: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .touch-auto {
@@ -2309,16 +2297,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-red-600 {
-  --tw-text-opacity: 1;
-  color: rgb(220 38 38 / var(--tw-text-opacity));
-}
-
-.text-blue-600 {
-  --tw-text-opacity: 1;
-  color: rgb(37 99 235 / var(--tw-text-opacity));
-}
-
 .underline {
   text-decoration-line: underline;
 }
@@ -2778,10 +2756,6 @@ body {
     margin-right: 0.25rem;
   }
 
-  .xs\:mb-8 {
-    margin-bottom: 2rem;
-  }
-
   .xs\:mr-0 {
     margin-right: 0px;
   }
@@ -2794,12 +2768,20 @@ body {
     margin-top: 1.75rem;
   }
 
+  .xs\:mb-2 {
+    margin-bottom: 0.5rem;
+  }
+
+  .xs\:mb-1 {
+    margin-bottom: 0.25rem;
+  }
+
   .xs\:h-8 {
     height: 2rem;
   }
 
-  .xs\:h-full {
-    height: 100%;
+  .xs\:h-40\/41 {
+    height: 97.560976%;
   }
 
   .xs\:w-7 {
@@ -2828,6 +2810,10 @@ body {
 
   .xs\:p-5 {
     padding: 1.25rem;
+  }
+
+  .xs\:p-1 {
+    padding: 0.25rem;
   }
 
   .xs\:px-3 {
@@ -2878,10 +2864,6 @@ body {
 }
 
 @media (min-width: 640px) {
-  .sm\:mb-0 {
-    margin-bottom: 0px;
-  }
-
   .sm\:mr-16 {
     margin-right: 4rem;
   }

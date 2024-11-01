@@ -9,6 +9,7 @@ module.exports = {
       height: {
         '1/12': '8.333333%', // Altura personalizada 1/12
         '11/12': '91.666667%', // Altura personalizada 11/12
+        '40/41': '97.560976%', // Altura personalizada 40/41
       },
       screens: {
         'xs': '300px',     // Pantallas extra pequeñas// 
